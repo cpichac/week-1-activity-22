@@ -9,11 +9,13 @@
 <body>
     <header>
         <h1>Cat Apreciation Group</h1>
-        <ul>
-            <li><a href="#About-Us">About Us</a></li>
-            <li><a href=""></a></li>
-            <li><a href="#Get-Started">Get Started</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="#About-Us">About Us</a></li>
+                <li><a href="#catoftheday">Cat of the Day</a></li>
+                <li><a href="#Get-Started">Get Started</a></li>
+            </ul>
+        </nav>
     </header>
 
     <div>
@@ -21,22 +23,34 @@
     </div>
 
     <main>
-        <section>
+        <section id="section-1">
             <h2 class="About-Us">About Us</h2>
             <p>We are a group of people who like to gather and appreciate cats and the ir daily live. Seeing those cute furballs jump, play around, and their overall wild nature are just some things that we love about cats. We made this website we can find a place to meets and be able to discuss about our cats or even ones we see online. We hope that whoever joins will be able to love cats as much as we do.</p>
         </section>
 
-        <section>
-            <h2></h2>
+        <section id="section-2">
+            <h2 class="catoftheday">Cat of the Day</h2>
+            <p>click <a href="">here</a> to find out who is the cat of the day.</p>
         </section>
     
-        <section>
+        <section id="section-3">
             <h2 class="Get-Started">Get Started</h2>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="Name" id="Name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <button>Send</button>
+            </div>
         </section>
     </main>
 
     <footer>
-
+        &copy; 2023 Cat Apreciation Group Org.
     </footer>
 </body>
 </html>

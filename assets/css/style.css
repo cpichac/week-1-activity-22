@@ -1,3 +1,37 @@
-* {
+*  {
+    background-color: blue;
+    color: black;
+}
 
+header {
+    background-color: rgb(136, 130, 130);
+}
+header h1 {
+    display: inline;
+}
+
+image {
+    display: block;
+    margin: 0 auto;
+}
+
+section, h2, p, a, label, input, button, footer {
+    background-color: rgb(0, 242, 255);
+}
+
+body {
+    margin: 0 auto;
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
 }
